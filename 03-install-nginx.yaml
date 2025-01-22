@@ -1,4 +1,4 @@
-- name: insgall and run nginx
+- name: install and run nginx
   hosts: web
   become: yes # means root user
   task: 
