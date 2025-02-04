@@ -4,7 +4,7 @@
   vars:
     COURSE: "Devops with aws"
     DURATION: "120"
-    PLATFORM: "JoinDevops"
+    PLATFORM: Join Devops
   tasks:
   - name: print the variable
     ansible.builtin.debug:
