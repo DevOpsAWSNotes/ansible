@@ -13,5 +13,5 @@
   - name: print the variable from task level
     vars:
       GREET: TASK
-  ansible.builtin.debug:
-    msg: "Hell From {{ GREET }}"
+    ansible.builtin.debug:
+      msg: "Hell From {{ GREET }}"
