@@ -4,4 +4,4 @@
   tasks:
   - name: print the variable
     ansible.builtin.debug:
-    msg: "I learn Devops with aws, course duration 120hrs, platform is joindevops"
+      msg: "I learn Devops with aws, course duration 120hrs, platform is joindevops"
