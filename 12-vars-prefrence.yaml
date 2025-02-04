@@ -3,8 +3,8 @@
   connection: local
   vars:
     GREET: PLAY
-  vars_files:
-    course.yaml
+  # vars_files:
+  #   course.yaml
   vars_prompt:
     - name: GREET
       prompt: please enter Greet Name
@@ -19,4 +19,5 @@
 
 
 # 1. command lines or args
-# 2. form task
+# 2. From task level
+# 3. From FILES Level
