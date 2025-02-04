@@ -11,7 +11,12 @@
       private: false
   tasks:
   - name: print the variable from task level
-    vars:
-      GREET: TASK
+    # vars:
+    #   GREET: TASK
     ansible.builtin.debug:
       msg: "Hell From {{ GREET }}"
+
+
+
+# 1. command lines or args
+# 2. form task
