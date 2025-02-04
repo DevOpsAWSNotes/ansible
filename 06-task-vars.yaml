@@ -7,7 +7,7 @@
     PLATFORM: Join Devops
   tasks:
   - name: print the variable
-    vars:
+    vars: # task level variables
       COURSE: ansible
     ansible.builtin.debug:
       msg: "I learn {{ COURSE }}, course duration {{ DURATION }}hrs, platform is {{ PLATFORM }}"
