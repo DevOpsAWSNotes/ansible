@@ -15,5 +15,5 @@
       cloud: aws
       containerzation: docker
     - name: print course information
-    ansible.builtin.debug:
-      msg: "I learn {{ course_name }}, duration is {{ duration }}, topics are: {{ topics }} is it {{ live }} and the tools are: {{ tools }}"
+      ansible.builtin.debug:
+        msg: "I learn {{ course_name }}, duration is {{ duration }}, topics are: {{ topics }} is it {{ live }} and the tools are: {{ tools }}"
