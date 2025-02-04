@@ -1,0 +1,6 @@
+- name: varibale from ansible nodes
+  hosts: web
+  tasks:
+  - name: print the varibles form ansible nodes
+    ansible.builtin.debug:
+      msg: "I learn {{ COURSE }}, course duration {{ DURATION }}hrs, platform is {{ PLATFORM }}"
