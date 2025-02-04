@@ -1,8 +1,8 @@
 - name: variables prefrences
   hosts: local
   connection: local
-  vars:
-    GREET: PLAY
+  # vars:
+  #   GREET: PLAY
   # vars_files:
   #   course.yaml
   # vars_prompt:
@@ -22,3 +22,4 @@
 # 2. From task level
 # 3. From FILES Level
 # 4. From Prompt level
+# 5. From PLAY level that is GLOBAL Lavel
