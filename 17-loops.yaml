@@ -1,0 +1,10 @@
+- name: ansible loop
+  hosts: web
+  tasks:
+  - name: print the list of items
+    ansible.builtin.debug:
+      msg: I learn courses are:"{{ item }}" # reserve key word in ansible
+    loop:
+      - linux
+      - aws
+      - devops
