@@ -3,4 +3,4 @@
   connection: local
   tasks:
   - name: excute ls command
-    ansibile.builtin.command: ls -ltr > /tmp/output.txt
+    ansibile.builtin.shell: ls -ltr > /tmp/output.txt
