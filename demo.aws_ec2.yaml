@@ -1,6 +1,8 @@
 plugin: amazon.aws.aws_ec2
 regions:
   - us-east-1
+vars_files:
+  course.yaml
 filters:
   tag:name: nginx
   instance-state-name: running

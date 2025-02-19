@@ -1,4 +1,7 @@
-COURSE: "Devops with aws"
-DURATION: 120
-PLATFORM: JoinDevops
- GREET: "From FILES"
+# COURSE: "Devops with aws"
+# DURATION: 120
+# PLATFORM: JoinDevops
+# GREET: "From FILES"
+
+ansible_user=ec2-user
+ansible_password=DevOps321
