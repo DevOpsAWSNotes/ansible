@@ -1,7 +1,10 @@
 plugin: amazon.aws.aws_ec2 
 regions:
   - us-east-1
-
+# The access key for your AWS account.
+aws_access_key: ec2-user
+# The secret access key for your AWS account.
+aws_secret_key: DevOps321
 filters:
   tag:name: nginx
   instance-state-name: running
